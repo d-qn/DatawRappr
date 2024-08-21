@@ -35,8 +35,9 @@ This function invites a email-address to a team.
 \examples{
 
 \dontrun{
+# uses the preset key in the .Renviron-file
 dw_invite_user(team = "testTeam", email = "test_at_test.com", role = "admin")
-} # uses the preset key in the .Renviron-file
+}
 }
 \author{
 Benedict Witzenberger

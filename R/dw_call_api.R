@@ -1,4 +1,4 @@
-#' Calls the Datawrapper API, retrying when neccessary, and validating the JSON response
+#' Calls the Datawrapper API, retrying when necessary, and validating the JSON response
 #'
 #' \lifecycle{experimental}
 #' Light wrapper around httr::RETRY

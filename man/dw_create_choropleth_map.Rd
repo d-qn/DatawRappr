@@ -33,7 +33,7 @@ dw_create_choropleth_map(
 \item{value_col}{Required. Which column contains the values to be plotted on the map?}
 }
 \value{
-It prints the new chart's id and returns a S3-structure of type \strong{dw_chart} with the elements from the Datawrapper-API, the same as in \code{\link{dw_retrieve_chart_metadata}}. After creating the chart you can populate and update it with \code{\link{dw_data_to_metadata}}
+It prints the new chart's id and returns a S3-structure of type \strong{dw_chart} with the elements from the Datawrapper-API, the same as in \code{\link{dw_retrieve_chart_metadata}}.
 }
 \description{
 \lifecycle{experimental}

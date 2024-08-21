@@ -39,7 +39,7 @@ dw_create_symbol_map(
 \item{folderId}{Optional. Creates chart in specified folder.}
 }
 \value{
-It prints the new chart's id and returns a S3-structure of type \strong{dw_chart} with the elements from the Datawrapper-API, the same as in \code{\link{dw_retrieve_chart_metadata}}. After creating the chart you can populate and update it with \code{\link{dw_data_to_metadata}}
+It prints the new chart's id and returns a S3-structure of type \strong{dw_chart} with the elements from the Datawrapper-API, the same as in \code{\link{dw_retrieve_chart_metadata}}
 }
 \description{
 \lifecycle{experimental}

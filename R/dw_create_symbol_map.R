@@ -14,7 +14,7 @@
 #' @param tooltip Optional. Specify a list including these vectors: \code{title}, \code{body}, \code{fields}. Include all used variables in fields. Use "{{ variable name }}" as placeholders in \code{title} and \code{body}.
 #' @param folderId Optional. Creates chart in specified folder.
 #'
-#' @return It prints the new chart's id and returns a S3-structure of type \strong{dw_chart} with the elements from the Datawrapper-API, the same as in \code{\link{dw_retrieve_chart_metadata}}. After creating the chart you can populate and update it with \code{\link{dw_data_to_metadata}}
+#' @return It prints the new chart's id and returns a S3-structure of type \strong{dw_chart} with the elements from the Datawrapper-API, the same as in \code{\link{dw_retrieve_chart_metadata}}
 #' @author Benedict Witzenberger
 #' @note If not specified, the new chart will by default be created without a title.
 #' @importFrom utils str
